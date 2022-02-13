@@ -1,8 +1,6 @@
 # music-bot
 <h1>made by me</h1>
-<img src="logo2.png" width="100" 
-     height="100" > <img src="logo.png" width="100" 
-     height="100" >
+<img src="logo2.png""logo.png" width="300" height="300" > 
 
 
 <p>to add my bot in your server</p>
