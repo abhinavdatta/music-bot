@@ -1,4 +1,5 @@
 
+   
     @font-face {
       font-family: "Euclid Circular B Medium";
       src: url("//db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.eot");
@@ -34,8 +35,8 @@
     bottom: -40px;
     font-size: 60px; 
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    color: rgb(255, 0, 0);
-    text-shadow: 0 0 50px #ff0000;
+    color: rgb(55, 192, 85);
+    text-shadow: 0 0 10px #ffffff;
     right: -10px;
     border: 0px solid #73AD21;
     z-index: -100;
@@ -44,10 +45,19 @@
     margin:0 auto;
     }
 
-
+    div.help{
+      font-size: 15px;
+      font-family: 'rosemary-bold' ;
+      text-shadow: 0 0 6px #ffffff;
+      color:red; 
+      display:table;
+      margin:0 auto;   
+    }
+    
+    
     .ress {
     position: relative;
-    background: linear-gradient(to left, #910303, #FBEE00,#04af07,#158bca);
+    background: linear-gradient(to top, #910303, #FBEE00,#04af07,#158bca);
     border-radius: 12px;
     font-size: 28px;
     display: flex;
