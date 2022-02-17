@@ -16,7 +16,7 @@
     <div class="header">
       <h1>Xtreme(The music bot)</h1>
       <div class="menu">
-          <a href="https://www.github.com/abhinavdatta" style="text-decoration:none; color:red; ">About Me</a>
+          <a href="https://www.github.com/abhinavdatta" style="text-decoration:none; color:red; left: -40px; ">About Me</a>
 
       </div>
 
@@ -49,9 +49,11 @@
   </head>
 
   <body>
-    
+   
     <section class="main">
       <!--Main Navigation-->
+
+ 
       <header>
         <div class="relative">
            Say Hello to music bot
@@ -63,21 +65,16 @@
                      click here to add</a>
                 </button>
              </div>     
+             <div class="help">
+               for bot commands type +help in your discord server. 
+               website was made by a starter.
+             </div>
     </section>
 
    
   </body>
   
   <script>
-    $(document).ready(() => {
-      var socket = io();
-      socket.emit("dashboard");
-      socket.on("dashboard", (data) => {
-        $("#commands").text(data.commands);
-        $("#users").text(data.users);
-        $("#songs").text(data.songs);
-        $("#guilds").text(data.guilds);
-      });
-    });
+  
   </script>
 </html>
